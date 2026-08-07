@@ -1,0 +1,44 @@
+# Data - never commit raw/processed data or datasets
+data/raw/*
+data/processed/*
+data/splits/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
+
+# Model checkpoints - too large for git
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Results (heatmaps, metrics) - regeneratable, don't clutter git history
+results/heatmaps/*
+results/metrics/*
+!results/heatmaps/.gitkeep
+!results/metrics/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -325,4 +325,4 @@ python src/visualize.py --checkpoint checkpoints/<run_name>.pt --slide data/raw/
 
 ---
 
-<p align="center">Made by Pranit Bharat More</p>
+<p align="center">Made by Pranit</p>
